@@ -1,11 +1,11 @@
 {
-  "name": "react-demo",
+  "name": "react-demo2",
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "vinxi dev",
-    "start": "vinxi start",
-    "build": "vinxi build",
+    "dev": "vite --port 3000",
+    "start": "vite --port 3000",
+    "build": "vite build && tsc",
     "serve": "vite preview",
     "test": "vitest run",
     "format": "biome format",
@@ -16,8 +16,6 @@
     "@tailwindcss/vite": "^4.0.6",
     "@tanstack/react-router": "^1.114.3",
     "@tanstack/react-router-devtools": "^1.114.3",
-    "@tanstack/react-router-with-query": "^1.114.3",
-    "@tanstack/react-start": "^1.114.3",
     "@tanstack/router-plugin": "^1.114.3",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
@@ -32,10 +30,8 @@
     "@vitejs/plugin-react": "^4.3.4",
     "jsdom": "^26.0.0",
     "typescript": "^5.7.2",
-    "vinxi": "^0.5.3",
     "vite": "^6.1.0",
     "vitest": "^3.0.5",
-    "vite-tsconfig-paths": "^5.1.4",
     "web-vitals": "^4.2.4"
   }
 }

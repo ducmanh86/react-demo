@@ -17,29 +17,6 @@ To build this application for production:
 npm run build
 ```
 
-## Deploying to Vercel
-
-This project is configured to deploy to Vercel with Nitro. To deploy:
-
-1. Push your code to a Git repository (GitHub, GitLab, or Bitbucket)
-2. Import your project in the Vercel dashboard
-3. Vercel will automatically detect the Nitro configuration
-4. Click "Deploy"
-
-Alternatively, you can use the Vercel CLI:
-
-```bash
-# Install Vercel CLI if you haven't already
-npm install -g vercel
-
-# Deploy to Vercel
-vercel
-```
-
-The project is configured with:
-- `vercel.json` - Specifies build settings and routing
-- Nitro preset in `app.config.ts` - Optimizes the build for Vercel
-
 ## Testing
 
 This project uses [Vitest](https://vitest.dev/) for testing. You can run the tests with:
