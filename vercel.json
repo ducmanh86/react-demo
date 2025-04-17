@@ -1,7 +1,7 @@
 {
   "buildCommand": "npm run build",
   "outputDirectory": ".output",
-  "framework": "Nuxt.js",
+  "framework": "nuxtjs",
   "rewrites": [
     { "source": "/(.*)", "destination": "/" }
   ]
